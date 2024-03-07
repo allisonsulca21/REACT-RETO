@@ -64,9 +64,7 @@ Within this repo is a demo UI that our team needs to make some changes to before
 ## Library:
 
 The documentation for grid component can be found here: 
-<pre>
 Library used <https://www.ag-grid.com/react-data-grid/>.
-</pre>
 
 It was a nice pleasure to work with AG GRID Library, I have learned a lot in a short period of time.
 
