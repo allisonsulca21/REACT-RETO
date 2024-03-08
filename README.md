@@ -10,18 +10,17 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Structure
 
-- Index.html
-The index.html file defines the basic structure of the web page and provides the necessary metadata for its proper functioning, as well as links to the static resources required by the application.
+# Index.html
+- The index.html file defines the basic structure of the web page and provides the necessary metadata for its proper functioning, as well as links to the static resources required by the application.
 
-- App.tsx
-This App.tsx document defines the main component of a React web application called App. It imports the NeoGrid component from another file and structures the UI using JSX. The <header> element displays the application header with styling, including the title "Near-Earth Object Overview". The <NeoGrid /> component is rendered, likely displaying a grid of near-Earth objects. Finally, the App component is exported as the main component of the application.
+# App.tsx
+- This App.tsx document defines the main component of a React web application called App. It imports the NeoGrid component from another file and structures the UI using JSX. The `<header>` element displays the application header with styling, including the title "Near-Earth Object Overview". The `<NeoGrid />` component is rendered, likely displaying a grid of near-Earth objects. Finally, the App component is exported as the main component of the application.
 
-- Grid.tsx
+# Grid.tsx
+-This Grid.tsx document is a React component that displays data in a grid using the Ag-Grid library. It imports necessary components and styles from Ag-Grid. It defines columns for the grid, specifies sorting and filtering options, and provides value formatting functions. The NeoGrid component renders the Ag-Grid grid with the provided data and column definitions. Finally, it exports the NeoGrid component for use in other parts of the application.
 
-This Grid.tsx document is a React component that displays data in a grid using the Ag-Grid library. It imports necessary components and styles from Ag-Grid. It defines columns for the grid, specifies sorting and filtering options, and provides value formatting functions. The NeoGrid component renders the Ag-Grid grid with the provided data and column definitions. Finally, it exports the NeoGrid component for use in other parts of the application.
-
-- Index.tsx
-This Index.tsx document is responsible for importing the necessary modules, creating the root entry point of React, and rendering the App component in the browser's DOM, all while strictly applying React's mode.
+# Index.tsx
+- This Index.tsx document is responsible for importing the necessary modules, creating the root entry point of React, and rendering the App component in the browser's DOM, all while strictly applying React's mode.
 
 
 ## PCI Energy Solutions
