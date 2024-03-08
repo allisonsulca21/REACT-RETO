@@ -8,18 +8,19 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Structure
 
-# Index.html
+# Structure
+
+## Index.html
 - The index.html file defines the basic structure of the web page and provides the necessary metadata for its proper functioning, as well as links to the static resources required by the application.
 
-# App.tsx
+## App.tsx
 - This App.tsx document defines the main component of a React web application called App. It imports the NeoGrid component from another file and structures the UI using JSX. The `<header>` element displays the application header with styling, including the title "Near-Earth Object Overview". The `<NeoGrid />` component is rendered, likely displaying a grid of near-Earth objects. Finally, the App component is exported as the main component of the application.
 
-# Grid.tsx
+## Grid.tsx
 -This Grid.tsx document is a React component that displays data in a grid using the Ag-Grid library. It imports necessary components and styles from Ag-Grid. It defines columns for the grid, specifies sorting and filtering options, and provides value formatting functions. The NeoGrid component renders the Ag-Grid grid with the provided data and column definitions. Finally, it exports the NeoGrid component for use in other parts of the application.
 
-# Index.tsx
+## Index.tsx
 - This Index.tsx document is responsible for importing the necessary modules, creating the root entry point of React, and rendering the App component in the browser's DOM, all while strictly applying React's mode.
 
 
@@ -30,9 +31,9 @@ Requirements: Most recent LTS version of Node. If you cannot install this versio
 This is an example project that presents you with a made-up scenario that will mimic some of the tasks that may need to be completed on a daily basis at PCI. It is intended to allow you to showcase your experience. If at any point something is unclear, please list it within this README. If you make any assumptions along the way, list those here as well. Also feel free to write anything else here that you would like considered when we review your approach. Do not install any new packages. We should be able to view your UI after running "npm install" and "npm start". Do not make any changes to the data source "near-earth-asteroids.json". If you feel you cannot complete one of the tasks, please move on to the next one and explain in this README.
 
 
-## Planification
+# Planification
 
-- Git Hub Projects (creating issues)
+- Git Hub Projects (Issues)
 
 
 ### Scenario
@@ -45,7 +46,7 @@ The documentation for grid component can be found here: <https://www.ag-grid.com
 
 It was a nice pleasure to work with AG GRID Library, I have learned a lot in a short period of time.
 
-## Tasks
+# Tasks
 
 1. The client would like a title on this page. Above the table, but within the app window, add a title that says "Near-Earth Object Overview". Please also make this title replace the default "React App" that shows on the tab for this window. This will give a clear indication of what the table and application are for. ✅
 
