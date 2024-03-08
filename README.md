@@ -2,48 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Structure
+
+- Index.html
+The index.html file defines the basic structure of the web page and provides the necessary metadata for its proper functioning, as well as links to the static resources required by the application.
+
+- App.tsx
+This App.tsx document defines the main component of a React web application called App. It imports the NeoGrid component from another file and structures the UI using JSX. The <header> element displays the application header with styling, including the title "Near-Earth Object Overview". The <NeoGrid /> component is rendered, likely displaying a grid of near-Earth objects. Finally, the App component is exported as the main component of the application.
+
+- Grid.tsx
+
+This Grid.tsx document is a React component that displays data in a grid using the Ag-Grid library. It imports necessary components and styles from Ag-Grid. It defines columns for the grid, specifies sorting and filtering options, and provides value formatting functions. The NeoGrid component renders the Ag-Grid grid with the provided data and column definitions. Finally, it exports the NeoGrid component for use in other parts of the application.
+
+- Index.tsx
+This Index.tsx document is responsible for importing the necessary modules, creating the root entry point of React, and rendering the App component in the browser's DOM, all while strictly applying React's mode.
+
 
 ## PCI Energy Solutions
 
@@ -52,7 +31,7 @@ Requirements: Most recent LTS version of Node. If you cannot install this versio
 This is an example project that presents you with a made-up scenario that will mimic some of the tasks that may need to be completed on a daily basis at PCI. It is intended to allow you to showcase your experience. If at any point something is unclear, please list it within this README. If you make any assumptions along the way, list those here as well. Also feel free to write anything else here that you would like considered when we review your approach. Do not install any new packages. We should be able to view your UI after running "npm install" and "npm start". Do not make any changes to the data source "near-earth-asteroids.json". If you feel you cannot complete one of the tasks, please move on to the next one and explain in this README.
 
 
-## Planification:
+## Planification
 
 - Git Hub Projects (creating issues)
 
@@ -61,14 +40,13 @@ This is an example project that presents you with a made-up scenario that will m
 
 Within this repo is a demo UI that our team needs to make some changes to before it goes to production. Clients have requested some new features, and it is your job to implement those. We have a few "stories" (or changes to be made) below. Please commit your changes along the way. On your final commit for each change, use the message "Task #X" where X is the number next to the task below.
 
-## Library:
+## Library
 
-The documentation for grid component can be found here: 
-Library used <https://www.ag-grid.com/react-data-grid/>.
+The documentation for grid component can be found here: <https://www.ag-grid.com/react-data-grid/>.
 
 It was a nice pleasure to work with AG GRID Library, I have learned a lot in a short period of time.
 
-## Tasks succesfully completed:
+## Tasks
 
 1. The client would like a title on this page. Above the table, but within the app window, add a title that says "Near-Earth Object Overview". Please also make this title replace the default "React App" that shows on the tab for this window. This will give a clear indication of what the table and application are for. ✅
 
